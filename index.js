@@ -1,6 +1,5 @@
 const store = require("./redux/index.js")
-const store = require("./redux/movies.js")
-const store = require("./redux/tvshows.js")
+
 
 
 const {addMovie, getAllMovies} = require ("./redux/movies")
@@ -14,4 +13,3 @@ store.dispatch(addMovie("Batman"))
 store.dispatch(addtvshow("Seinfeld"))
 store.dispatch(addtvshow("Family Guy"))
 store.dispatch(getAllMovies())
-store.dispatch(getAlltvshows())
